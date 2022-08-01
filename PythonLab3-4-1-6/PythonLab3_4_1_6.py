@@ -37,5 +37,13 @@ print(hat_list, "\n")
 time.sleep(0.5)
 print("Length of hat list is: ", len(hat_list), "\n")
 
+# Step 6 - Adds a number to the hat-list.
+# Simply adds '72' to the end of the hat_list.
+time.sleep(0.5)
+hat_list.append(72)
+print("Another new number has come to hide in the the hat:")
+print(hat_list, "\n")
 
-
+# Step 7 - Prints the length of the existing list.
+time.sleep(0.5)
+print("Length of hat list is: ", len(hat_list), "\n")
